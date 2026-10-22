@@ -37,6 +37,10 @@ php artisan install:api
 
 The command creates the API route file and registers it in `bootstrap/app.php`.
 
+## Tests
+
+The GitHub Actions workflow creates a Laravel 13 application, installs mongodb/laravel-mongodb 5.11, copies these files and runs the feature tests in `myapp/tests` against a MongoDB service.
+
 ## Laravel MongoDB Documentation
 
 Official documentation for Laravel MongoDB integration is available here: [Laravel MongoDB documentation](https://www.mongodb.com/docs/drivers/php/laravel-mongodb/)
